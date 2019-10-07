@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/location"
+            android:icon="@drawable/loc"
+            android:title="Your Location"></item>
+        <item
+            android:id="@+id/myaddresses"
+            android:icon="@drawable/home"
+            android:title="My Addresses"
+            >
+
+        </item>
+    </group>
+    </menu>

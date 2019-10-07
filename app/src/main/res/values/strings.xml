@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Dukaan</string>
+    <string name="app_title">Dukaan</string>
+    <string name="title_activity_login">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_sabzi">Vegetables</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_cart">Your Cart</string>
+    <string name="title_activity_confirm_order">Order Confirmation</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_contact">Contact Us</string>
+    <string name="title_activity_address">My Addresses</string>
+    <string name="title_activity_about">About Us</string>
+    <string name="category_1">Lifeline Veggies</string>
+    <string name="category_2">Green Veggies</string>
+    <string name="category_3">Green Veggies 2</string>
+    <string name="category_4">Chutney Items</string>
+
+
+    <!--Scripts To be executed during whole process-->
+    <string name="login_script">http://www.dukaan.in/android/login.php</string>
+    <string name="register_script">http://www.dukaan.in/android/register.php</string>
+    <string name="complaint_script">http://www.dukaan.in/android/complain.php</string>
+    <string name="edit_profile_script">http://www.dukaan.in/android/updateDetails.php</string>
+    <string name="facebook_update_script">http://www.dukaan.in/android/facebookUpdate.php</string>
+    <string name="vendor_script">http://www.dukaan.in/android/vendorList.php</string>
+    <string name="coupon_script">http://www.dukaan.in/android/coupon.php</string>
+    <string name="area_selector_script">http://www.dukaan.in/android/mainAreaJson.php</string>
+    <string name="sabzi_fetch_script">http://www.dukaan.in/android/sabziList.php</string>
+    <string name="order_cancel_script">http://www.dukaan.in/android/cancel.php</string>
+    <string name="orders_script">http://www.dukaan.in/android/previousOrders.php</string>
+    <string name="confirm_orders_script">http://www.dukaan.in/android/finalOrder.php</string>
+    <string name="rating_script">http://www.dukaan.in/android/rating.php</string>
+    <string name="send_otp_script">http://www.dukaan.in/android/sendOTP.php</string>
+    <string name="check_otp_script">http://www.dukaan.in/android/checkOTP.php</string>
+    <string name="privacy_policy_url">http://www.dukaan.in/pages/privacy-policy</string>
+    <string name="term_n_condition_url">http://www.dukaan.in/pages/tncs</string>
+    <string name="faq_url">http://www.dukaan.in/pages/faqs</string>
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    <string name="facebook_app_id">572841012892700</string>
+
+    <!--Shared Preferences Constants KEY-->
+    <string name="SP_SABZI_INIT">SABZI_INIT</string>
+    <string name="SP_SABZI_CHECK">SABZI_CHECK</string>
+    <string name="SP_FIRST_LOGIN">FIRST_LOGIN</string>
+    <string name="SP_USER_ID">USER_ID</string>
+    <string name="SP_USER_REFERRAL">USER_REFERRAL</string>
+    <string name="SP_USER_NAME">USER_NAME</string>
+    <string name="SP_USER_EMAIL">USER_EMAIL</string>
+    <string name="SP_USER_PIC">USER_PIC</string>
+    <string name="SP_USER_CONTACT">USER_CONTACT</string>
+    <string name="SP_USER_ADDRESS">USER_ADDRESS</string>
+    <string name="SP_USER_GENDER">USER_GENDER</string>
+    <string name="SP_GENDER_PREFERENCE">USER_GP</string>
+    <string name="SP_LOGIN_STATUS">USER_STATUS</string>
+    <string name="SP_AREA">USER_AREA</string>
+    <string name="SP_SUBAREA">USER_SUBAREA</string>
+    <string name="SP_SUBAREA_ID">USER_SUBAREA_ID</string>
+    <string name="SP_VENDOR_CATEGORY_1">VENDOR_CAT_1</string>
+    <string name="SP_VENDOR_CATEGORY_2">VENDOR_CAT_2</string>
+    <string name="SP_VENDOR_CATEGORY_3">VENDOR_CAT_3</string>
+    <string name="SP_VENDOR_CATEGORY_4">VENDOR_CAT_4</string>
+    <string name="SP_VENDOR_CATEGORY_1_NAME">VENDOR_CAT_1_NAME</string>
+    <string name="SP_VENDOR_CATEGORY_2_NAME">VENDOR_CAT_2_NAME</string>
+    <string name="SP_VENDOR_CATEGORY_3_NAME">VENDOR_CAT_3_NAME</string>
+    <string name="SP_VENDOR_CATEGORY_4_NAME">VENDOR_CAT_4_NAME</string>
+    <string name="title_activity_previous_order">PreviousOrderActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_no_internet">NoInternetActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_complaint">Complaints</string>
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+</resources>

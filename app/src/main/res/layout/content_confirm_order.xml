@@ -1,0 +1,379 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="64dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:showIn="@layout/activity_confirm_order">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:src="@drawable/confirm_tick" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="Total amount Payable : ₹ "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/user"
+                        android:layout_margin="10dp" />
+
+                    <TextView
+                        android:id="@+id/nameHead"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|start"
+                        android:text="User Name"
+                        android:textStyle="italic"
+                        android:textColor="@color/Soothing_Black"
+                        android:textIsSelectable="true"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:enabled="false"
+                    android:gravity="start"
+                    android:hint="Your Name"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/mail" />
+
+                    <TextView
+                        android:id="@+id/mailHead"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|start"
+                        android:text="E-Mail ID"
+                        android:textStyle="italic"
+                        android:textColor="@color/Soothing_Black"
+                        android:textIsSelectable="true"
+                        android:textSize="17sp" />
+<!--
+                    <TextView
+                        android:id="@+id/nameHead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="User Name"
+                        android:textStyle="italic"
+                        android:textColor="@color/Soothing_Black"
+                        android:textIsSelectable="true"
+                        android:textSize="18sp" />-->
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:enabled="false"
+                    android:gravity="start"
+                    android:hint="E-Mail ID"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+
+                        android:src="@drawable/mobile" />
+
+                    <TextView
+                        android:id="@+id/conHead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:text="Mobile No."
+                        android:textStyle="italic"
+                        android:textColor="@color/Soothing_Black"
+                        android:textIsSelectable="true"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:id="@+id/editContact"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:src="@drawable/edit" />
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:enabled="false"
+                    android:gravity="start"
+                    android:hint="Mobile No."
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:layout_marginBottom="8dp">
+
+                </EditText>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="9"
+                    android:layout_weight="3">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+
+                        android:src="@drawable/home" />
+
+
+                    <TextView
+                        android:id="@+id/addHead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:text="Address"
+                        android:textStyle="italic"
+                        android:textColor="@color/Soothing_Black"
+                        android:textIsSelectable="true"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/addressList"
+                        android:layout_weight="1"
+                        android:layout_gravity="end|center"
+                        android:src="@drawable/list"
+                        android:onClick="showAddressPopup" />
+
+                    <ImageView
+                        android:id="@+id/editAddress"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:src="@drawable/edit" />
+                </LinearLayout>
+
+
+      <!--          <EditText
+                    android:id="@+id/mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:enabled="false"
+                    android:gravity="start"
+                    android:hint="Mobile No."
+                    android:inputType="number"
+                    android:lines="4"
+                    android:padding="5dp">
+
+                </EditText>-->
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:gravity="start"
+                    android:hint="Enter your Address"
+                    android:padding="5dp"
+                    android:inputType="textMultiLine"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp">
+
+                </EditText>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <include layout="@layout/payment_card_layout" />
+
+   <!--     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:orientation="vertical"
+            >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <EditText
+                android:id="@+id/couponText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:hint="Enter Coupon Code" />
+
+            <Button
+                android:id="@+id/applyCoupon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/Theme_elements"
+                android:text="Apply Coupon"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/confirmbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="15dp"
+            android:background="@color/Theme_elements"
+            android:text="Confirm Order"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/confirmProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:visibility="gone" />
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+</ScrollView>

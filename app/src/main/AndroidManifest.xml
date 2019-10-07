@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rashan.digifresh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tmp2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".VRIntro"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".ZSabziActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_sabzi"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBarCustom" />
+        <activity
+            android:name=".VendorRegistration"
+            android:configChanges="orientation|keyboardHidden"
+
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBarCustom" />
+        <activity
+            android:name=".CartActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_cart"
+            android:parentActivityName=".ZSabziActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBarCustom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ZSabziActivity" />
+        </activity>
+        <activity
+            android:name=".ConfirmOrderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_confirm_order"
+            android:parentActivityName=".CartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBarCustom"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ZSabziActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".PreviousOrderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_previous_order"
+            android:parentActivityName=".ZSabziActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBarCustom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ZSabziActivity" />
+        </activity>
+        <activity
+            android:name=".EditProfileActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_edit_profile"
+            android:parentActivityName=".ZSabziActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBarCustom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ZSabziActivity" />
+        </activity>
+        <activity
+            android:name=".NoInternetActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_no_internet"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".ZLogin"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ZRegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden" />
+
+
+        <activity
+            android:name=".AddressActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_address"
+            android:parentActivityName=".ZSabziActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBarCustom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ZSabziActivity" />
+        </activity>
+
+
+
+    </application>
+
+</manifest>

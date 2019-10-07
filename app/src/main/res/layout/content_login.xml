@@ -1,0 +1,167 @@
+
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="64dp">
+
+        <!--<WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/webview"
+            >
+
+
+        </WebView>-->
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="0dp"
+            android:paddingTop="20dp">
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/lmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-Mail ID"
+                android:inputType="textEmailAddress"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="0dp">
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/lpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/orL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="OR"
+            android:textColor="@color/GREY_MAIN_SCREENS"
+            android:textSize="15sp" />
+
+
+
+        <Button
+            android:id="@+id/fbLoginButton"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/fbLoginImageButton"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fbloginbutton"
+
+            android:visibility="gone"/>
+
+
+        <!-- <com.google.android.gms.common.SignInButton
+             android:id="@+id/GLogin"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginBottom="10dp" />-->
+
+        <ImageButton
+            android:id="@+id/GLogin"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/google"
+            android:visibility="gone"/>
+        <ImageButton
+            android:id="@+id/googleLoginButton"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/google"
+
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/registerLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="New User? Register Now!"
+            android:textColor="@color/Theme_elements"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/vendorLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Vendors Click Here for Registeration!"
+            android:textColor="@color/Theme_elements"
+            android:textSize="15sp"
+            android:onClick="vendorLink"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/forgotLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Forgot Password?"
+            android:textColor="@color/Theme_elements"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="By Signing Up you are accepting our Privacy Policies and Terms n Conditios "
+            android:textColor="@color/GREY_HEADING"
+            android:textSize="8sp"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>

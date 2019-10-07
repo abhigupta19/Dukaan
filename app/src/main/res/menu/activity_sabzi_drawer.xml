@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/location"
+            android:icon="@drawable/loc"
+            android:title="Your Location"></item>
+    </group>-->
+<!--    <group android:checkableBehavior="single"
+        android:id="@+id/categoryGroup">
+        <item
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Category">
+            <menu                >
+                <item
+                    android:id="@+id/random"
+                    android:icon="@drawable/random"
+                    android:title="@string/app_name"
+                    />
+                <item
+                    android:id="@+id/cat1"
+                    android:icon="@drawable/cat1"
+                    android:title="@string/category_1" />
+                <item
+                    android:id="@+id/cat2"
+                    android:icon="@drawable/cat2"
+                    android:title="@string/category_2" />
+                <item
+                    android:id="@+id/cat3"
+                    android:icon="@drawable/cat3"
+                    android:title="@string/category_3" />
+                <item
+                    android:id="@+id/cat4"
+                    android:icon="@drawable/cat4"
+                    android:title="@string/category_4" />
+            </menu>
+        </item>
+    </group>-->
+    <group android:checkableBehavior="single">
+    <item android:title="Info Section">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/orders"-->
+                <!--android:icon="@drawable/basket"-->
+                <!--android:title="My Orders" />-->
+            <item
+                android:id="@+id/refer"
+                android:icon="@drawable/contact"
+                android:title="Refer and Earn" />
+           <!-- <item
+                android:id="@+id/contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About" />
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/privacy"
+                android:title="Privacy Policy" />
+
+            <item
+                android:id="@+id/terms"
+                android:icon="@drawable/tnc"
+                android:title="Terms" />
+
+            <item
+                android:id="@+id/faq"
+                android:icon="@drawable/fandq"
+                android:title="FAQs" />
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/share"
+                android:actionProviderClass="android.widget.ShareActionProvider"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share APP"/>
+-->
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out?" />
+        </menu>
+    </item>
+    </group>
+</menu>

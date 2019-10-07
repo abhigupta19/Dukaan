@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:fitsSystemWindows="true"
+    android:id="@+id/prevOrderCoordinator"
+    tools:context="in.vegvendors.app.PreviousOrderActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <include layout="@layout/content_previous_order"
+        android:id="@+id/myLayout"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+
+
+        app:menu_labels_showAnimation="@anim/jump_from_down"
+        app:menu_labels_hideAnimation="@anim/jump_to_down"
+        app:menu_animationDelayPerItem="0"
+        app:menu_shadowColor="#444"
+        app:menu_colorNormal="@color/Theme_elements"
+        app:menu_colorPressed="@color/Theme_elements"
+        app:menu_fab_size="normal"
+        app:menu_colorRipple="@color/Theme_elements">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/basket"
+            app:fab_label="Reorder"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/Theme_elements"
+            app:fab_colorPressed="@color/Theme_elements"
+            app:fab_colorRipple="@color/Theme_elements"
+
+            android:onClick="fab_click" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/basket"
+            app:fab_label="Change Slot"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/Theme_elements"
+            app:fab_colorPressed="@color/Theme_elements"
+            app:fab_colorRipple="@color/Theme_elements"
+            android:onClick="fab_click" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabe3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/basket"
+            app:fab_label="Compaint"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/Theme_elements"
+            app:fab_colorPressed="@color/Theme_elements"
+            app:fab_colorRipple="@color/Theme_elements"
+            android:onClick="fab_click" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabe4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/basket"
+            app:fab_label="Cancel Order"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/Theme_elements"
+            app:fab_colorPressed="@color/Theme_elements"
+            app:fab_colorRipple="@color/Theme_elements"
+            android:onClick="fab_click" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <!--  <uk.co.markormesher.android_fab.FloatingActionButton
+          android:id="@+id/customFab"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:fabSize="mini"
+          />-->
+
+
+  <!--  <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/fabLayout"
+        android:gravity="bottom|end">
+        <uk.co.markormesher.android_fab.FloatingActionButton
+            android:id="@+id/customFab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fabSize="mini"
+            />
+    </LinearLayout>-->
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

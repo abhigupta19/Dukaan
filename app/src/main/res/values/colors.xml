@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Link_Clicked">#FF29446B</color>
+    <color name="GREY_BACKGROUND">#E8E8E8</color>
+
+    <color name="DARK_GREEN_SABZI">#176e21</color>
+    <color name="GREY_HEADING">#888988</color>
+    <color name="GREY_SUB_HEADING">#505150</color>
+    <color name="GREY_MAIN_SCREENS">#515151</color>
+    <color name="Toast_Custom">#e64caf50</color>
+    <color name="Soothing_Black">#D6000000</color>
+
+    <!--<color name="Theme_elements">#349A67</color>-->
+    <!--<color name="App_Intro">#349A67</color>-->
+
+    <color name="Theme_elements">#3CA33F</color>
+    <color name="App_Intro">#3CA33F</color>
+
+
+</resources>

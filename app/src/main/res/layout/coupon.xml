@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="2">
+
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/totalValue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.3"
+        android:gravity="center"
+        android:text="Total Cart Value :₹ 0.0"
+        android:textColor="#3d5835"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/proceedCart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="@color/Theme_elements"
+        android:enabled="false"
+        android:text="Proceed"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

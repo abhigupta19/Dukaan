@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Theme_elements</item>
+        <item name="colorPrimaryDark">@color/DARK_GREEN_SABZI</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.TransparentCustom" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/Theme_elements</item>
+        <item name="colorControlHighlight">@color/Theme_elements</item>
+        <item name="android:editTextColor">@color/Theme_elements</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBarCustom" parent="@style/Theme.AppCompat.Light">
+        <item name="android:editTextColor">@color/GREY_HEADING</item>
+        <item name="android:textColor">@color/GREY_HEADING</item>
+        <item name="colorPrimary">@color/Theme_elements</item>
+        <item name="colorPrimaryDark">@color/DARK_GREEN_SABZI</item>
+        <item name="colorAccent">@color/Theme_elements</item>
+        <item name="colorControlNormal">@color/Theme_elements</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+    <!--<style name="Theme.AppCompat.NoActionBar.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>-->
+
+</resources>
